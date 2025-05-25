@@ -1,0 +1,60 @@
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[
+top=3 cm,
+bottom=3 cm,
+left=2.5 cm,
+right=2.5 cm,
+]{geometry}
+
+\usepackage{blindtext}
+\usepackage{titlesec}
+\usepackage{iftex}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=blue,
+	pdftitle={Game Design Document},
+	pdfpagemode=FullScreen,
+}
+
+\urlstyle{same}
+
+
+\ifPDFTeX
+\input{./glyphtounicode}
+\pdfgentounicode=1
+% \usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault,light]{inter}
+\fi
+
+
+\title{Game Design Document}
+\author{}
+\date{}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\pagebreak
+	
+	\section{Game Overview}
+	\subsection{Title} 
+	\subsection{Genre} 
+	\subsection{Description}
+	\subsection{Platforms} 
+	\subsection{Target Audience}
+	\subsection{Art Style} 
+	\subsection{Audio Style} 
+	\subsection{Theme} 
+	\subsection{Controls} 
+	
+	\section{Core Gameplay}
+	\section{Meta Progression}
+	\section{Monetization}
+\end{document}
