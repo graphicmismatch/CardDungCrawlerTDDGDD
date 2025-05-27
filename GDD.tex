@@ -44,17 +44,80 @@ right=2.5 cm,
 	\pagebreak
 	
 	\section{Game Overview}
-	\subsection{Title} 
-	\subsection{Genre} 
-	\subsection{Description}
-	\subsection{Platforms} 
-	\subsection{Target Audience}
-	\subsection{Art Style} 
-	\subsection{Audio Style} 
-	\subsection{Theme} 
-	\subsection{Controls} 
-	
+	\subsection{Title} TBD
+	\subsection{Genre} Card Battler + Deck Builder
+	\subsection{Description} 
+	A roguelike card-battler game where players explore a dark, mysterious world filled with arcane tech and ancient magic. Players start with a randomized deck and grow stronger by strategically modifying their deck through battles, exploration, and special nodes (shrines, forges, etc.).
+	\subsection{Platforms} Desktop (Windows, Linux, MacOS)
+	\subsection{Target Audience}  Fans of Inscryption, Slay the Spire, Griftlands, Monster Train, and dark fantasy universes. Those who enjoy strategic, turn-based gameplay, deckbuilding, and lore-driven worlds.
+	\subsection{Art Style} TBD
+	\subsection{Audio Style} TBD
+	\subsection{Theme} Dark Fantasy + Arcane Sci-Fi
+	\subsection{Controls} Mouse + Keyboard
+	\pagebreak
 	\section{Core Gameplay}
+	\begin{itemize}
+		\item \textbf{Turn-Based Combat:} Players use a hand of cards drawn from their deck to battle enemies in strategic, turn-based encounters. Energy is spent to play cards, and unspent energy may have special synergy effects. Active cards may be sacrificed to gain additional energy.
+		
+		\item \textbf{Card Stats:}
+		\begin{itemize}
+			\item \textbf{Attack:} Deal direct damage.
+			\item \textbf{Health:} Health of the Cards.
+			\item \textbf{Energy:} Determines how much energy is required to play the card.
+			\item \textbf{Spell:} Abilities which can either have positive or negative effects.
+		\end{itemize}
+		
+		\item \textbf{Deck Management:} 
+		\begin{itemize}
+		\item Players will have an inventory with acquired cards and a deck. Players can freely exchange cards between the Deck and Inventory outside of battle.
+		\item Players can:
+		\begin{itemize}
+			\item Upgrade cards at special points
+			\item Fuse or corrupt cards for alternate versions at certain points.
+		\end{itemize}
+	    \end{itemize}
+		\item \textbf{Map Exploration:} Each run will have a procedurally generated map.
+		\begin{itemize}
+			\item \textbf{Combat Encounters:} Normal, Mini Boss, Boss
+			\item \textbf{Event Nodes:} Narrative choices with rewards/penalties
+			\item \textbf{Shrines:} Buff or debuff cards
+			\item \textbf{Forges:} Upgrade, craft, or combine cards
+		\end{itemize}
+		
+		\item \textbf{Characters (Future):} Multiple unlockable characters with distinct starting decks, abilities, and themes.
+		
+		\item \textbf{Synergies:} Cards can synergize with eachother through .
+		\end{itemize}
 	\section{Meta Progression}
+	
+	\begin{itemize}
+		\item \textbf{Unlockable Cards:} New cards added to the global pool after certain milestones.
+		
+		\item \textbf{Characters:} Unlock through progression, each with unique starting decks and playstyles.
+		
+		\item \textbf{Artifacts:} Permanent or run-specific passive bonuses (e.g., +1 max energy, double draw on first turn).
+		
+		\item \textbf{Codex / Lore Archive:} Unlocked via choices/events, slowly revealing the overarching narrative.
+		
+		\item \textbf{Difficulty Scaling:} Ascension-like system that unlocks tougher modifiers as players complete runs.
+	\end{itemize}
 	\section{Monetization}
+	
+	\begin{itemize}
+		\item \textbf{Open Source Premium Model (PC/Console):} One-time purchase for pre-compiled binaries, no in-game ads or microtransactions. Free access to source code (Aseprite's Monetization Model)
+		
+		\item \textbf{Planned DLC:}
+		\begin{itemize}
+			\item New characters, card sets, environments
+			\item Alternate campaigns or boss variants
+		\end{itemize}
+	\end{itemize}
+	
+	\section{Tech Stack}
+		\begin{itemize}
+			\item Unity 6000.0.48f1 [LTS] - Game Engine
+			\subitem LeanTween - Tweening
+			\subitem Newtonsoft.JSON - JSON Library
+			\item WASDEditor - Dialogues
+		\end{itemize}
 \end{document}
