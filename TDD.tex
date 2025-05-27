@@ -1,0 +1,53 @@
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[
+top=3 cm,
+bottom=3 cm,
+left=2.5 cm,
+right=2.5 cm,
+]{geometry}
+
+\usepackage{blindtext}
+\usepackage{titlesec}
+\usepackage{iftex}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=blue,
+	pdftitle={Voodoo Prototype Ideas},
+	pdfpagemode=FullScreen,
+}
+
+\urlstyle{same}
+
+
+\ifPDFTeX
+\input{./glyphtounicode}
+\pdfgentounicode=1
+% \usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault,light]{inter}
+\fi
+
+
+\title{TDD}
+\author{}
+\date{}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\pagebreak
+	
+	\section {Map Generation} Map Generation will be done through Random Piece Allocation.
+	\begin{center}
+		\includegraphics[width=0.7\linewidth]{"Assets/Random Piece Allocation"}
+	\end{center}
+	
+
+	 
+\end{document}
